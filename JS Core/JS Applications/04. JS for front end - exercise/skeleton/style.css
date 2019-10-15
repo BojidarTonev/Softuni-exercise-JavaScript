@@ -1,0 +1,23 @@
+.background{
+    background: url("./img/hands-with-pencil-and-ruler.jpg") no-repeat center fixed;
+    background-size: cover;
+}
+
+.container{
+    background-color: #47abad;
+}
+
+.card-header{
+    background-color: #47abad;
+}
+
+#first-container{
+    margin: 0;
+    background: #47abad;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    width:700px;
+}

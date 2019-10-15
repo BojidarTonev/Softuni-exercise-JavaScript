@@ -1,0 +1,17 @@
+{{>header}}
+
+<div style="margin-top:3%; padding-top: 3%;" class="container">
+    
+    <div style="margin-bottom:25%;" class="row">
+        <div class="col-lg-12">
+            {{#each causes}}
+                {{>single-cause}}
+            {{else}}
+            <h1 class="text-center">NO CAUSES :(</h1>
+            {{/each}}
+        </div>
+    </div>
+</div>
+
+
+{{>footer}}

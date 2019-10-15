@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <script src="https://code.jquery.com/jquery-3.1.0.min.js"></script>
+  <title>Sections</title>
+  <style>
+    #content {
+      width: 1000px;
+    }
+
+    #content div {
+      float: left;
+      width: 300px;
+      height: 300px;
+      margin: 2em;
+      background: #5555ff;
+      text-align: center;
+    }
+
+    #content div p {
+      color: white;
+      margin: 6em 3em 6em 3em;
+    }
+  </style>
+</head>
+<div id="content">
+</div>
+<body onload="create(['Section 1', 'Section 2', 'Section 3', 'Section 4']);">
+<script>
+  function create(sentences) {
+        for(let item of sentences){
+            let $divElement = $('<div></div>');
+            let $pElement = $('<p></p>');
+            $pElement.text(item);
+            $pElement.css('display', 'none')
+            $divElement.append($pElement); 
+
+            $divElement.on('click', function(){
+                $divElement.children('p').css('display', 'block');
+            });
+
+            $('#content').append($divElement);
+        }
+  }
+</script>
+</body>
+</html>

@@ -1,0 +1,369 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BookmarkManager">
+    <bookmark url="file://$PROJECT_DIR$/JS Exam 14 October 2018/04. Warehouse Machine.js" line="13" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="de1cffa3-7d73-4cca-a668-c7b0e06259f8" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/JS Exam 10 February 2019/01. HTML Grade.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS Exam 10 February 2019/02. Table Filter.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS Exam 10 February 2019/03. HTML Strict Mode.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS Exam 10 February 2019/04. E-Venetka.bg.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS Exam 14 October 2018/01. Coffee Machine.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS Exam 14 October 2018/02. ATM Machine.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS Exam 14 October 2018/04. Warehouse Machine.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Objects and JSON DOM Events - exercise/02.Furniture/solution.js" beforeDir="false" afterPath="$PROJECT_DIR$/Objects and JSON DOM Events - exercise/02.Furniture/solution.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Objects and JSON DOM Events - exercise/03.Forum/solution.js" beforeDir="false" afterPath="$PROJECT_DIR$/Objects and JSON DOM Events - exercise/03.Forum/solution.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Objects and JSON DOM Events - exercise/04.Salesman/solution.js" beforeDir="false" afterPath="$PROJECT_DIR$/Objects and JSON DOM Events - exercise/04.Salesman/solution.js" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/.tmp/" />
+    <ignored path="$PROJECT_DIR$/temp/" />
+    <ignored path="$PROJECT_DIR$/tmp/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>myChatBox</find>
+      <find>content</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/JS Operations and syntaxis - lab.js" />
+        <option value="$PROJECT_DIR$/JS Operations and syntax - exercise.js" />
+        <option value="$PROJECT_DIR$/Document-Object-Model - exercise/03_Encode-and-Decode-Messages/solution.js" />
+        <option value="$PROJECT_DIR$/Document-Object-Model - exercise/04_Locked-Profile/solution.js" />
+        <option value="$PROJECT_DIR$/Document-Object-Model - exercise/05_Number-Convertor/solution.js" />
+        <option value="$PROJECT_DIR$/Document-Object-Model - exercise/02_Chat-Room-with-Pesho/solution.js" />
+        <option value="$PROJECT_DIR$/Document-Object-Model - exercise/06_SoftUni-Quizz/template.html" />
+        <option value="$PROJECT_DIR$/Document-Object-Model - exercise/06_SoftUni-Quizz/solution.js" />
+        <option value="$PROJECT_DIR$/Document-Object-Model - exercise/07_Table-Search-Engine/template.html" />
+        <option value="$PROJECT_DIR$/Document-Object-Model - exercise/07_Table-Search-Engine/solution.js" />
+        <option value="$PROJECT_DIR$/Document-Object-Model - exercise/08_Toto-Numbers/solution.js" />
+        <option value="$PROJECT_DIR$/Document-Object-Model - exercise/09_Virus-Installer/template.html" />
+        <option value="$PROJECT_DIR$/Document-Object-Model - exercise/09_Virus-Installer/solution.js" />
+        <option value="$PROJECT_DIR$/Arrays and Matrices - exercise/Arrays and matrices - exercise.js" />
+        <option value="$PROJECT_DIR$/Arrays and Matrices - exercise/Objects and JSON - lab.js" />
+        <option value="$PROJECT_DIR$/Objects and JSON - lab/Objects and JSON - lab.js" />
+        <option value="$PROJECT_DIR$/JS Exam 14 October 2018/01. Coffee Machine.js" />
+        <option value="$PROJECT_DIR$/JS Exam 14 October 2018/02. ATM Machine.js" />
+        <option value="$PROJECT_DIR$/JS Exam 14 October 2018/04. Warehouse Machine.js" />
+        <option value="$PROJECT_DIR$/JS Exam 10 February 2019/01. HTML Grade.js" />
+        <option value="$PROJECT_DIR$/JS Exam 10 February 2019/03. HTML Strict Mode.js" />
+        <option value="$PROJECT_DIR$/JS Exam 10 February 2019/04. E-Venetka.bg.js" />
+        <option value="$PROJECT_DIR$/JS Exam 10 February 2019/02. Table Filter.js" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="260" />
+    <option name="y" value="20" />
+    <option name="width" value="1400" />
+    <option name="height" value="1000" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/.." />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\github projects\SoftUni-exercise\JS Core\JS Fundamentals" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Node.js.02. Table Filter.js">
+    <configuration name="01. HTML Grade.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/JS Exam 10 February 2019/01. HTML Grade.js" working-dir="$PROJECT_DIR$">
+      <method v="2" />
+    </configuration>
+    <configuration name="02. Table Filter.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/JS Exam 10 February 2019/02. Table Filter.js" working-dir="$PROJECT_DIR$">
+      <method v="2" />
+    </configuration>
+    <configuration name="03. HTML Strict Mode.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/JS Exam 10 February 2019/03. HTML Strict Mode.js" working-dir="$PROJECT_DIR$">
+      <method v="2" />
+    </configuration>
+    <configuration name="04. E-Venetka.bg.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/JS Exam 10 February 2019/04. E-Venetka.bg.js" working-dir="$PROJECT_DIR$">
+      <method v="2" />
+    </configuration>
+    <configuration name="04. Warehouse Machine.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/JS Exam 14 October 2018/04. Warehouse Machine.js" working-dir="$PROJECT_DIR$">
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Node.js.02. Table Filter.js" />
+        <item itemvalue="Node.js.04. E-Venetka.bg.js" />
+        <item itemvalue="Node.js.03. HTML Strict Mode.js" />
+        <item itemvalue="Node.js.01. HTML Grade.js" />
+        <item itemvalue="Node.js.04. Warehouse Machine.js" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="de1cffa3-7d73-4cca-a668-c7b0e06259f8" name="Default Changelist" comment="" />
+      <created>1547593052818</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1547593052818</updated>
+      <workItem from="1547593055041" duration="2720000" />
+      <workItem from="1547596462712" duration="1871000" />
+      <workItem from="1547598803322" duration="290000" />
+      <workItem from="1547653202590" duration="3486000" />
+      <workItem from="1547752793256" duration="13657000" />
+      <workItem from="1547768233964" duration="24000" />
+      <workItem from="1547778772776" duration="6951000" />
+      <workItem from="1547996677720" duration="18079000" />
+      <workItem from="1548100605303" duration="4318000" />
+      <workItem from="1548126692243" duration="4630000" />
+      <workItem from="1548709314778" duration="599000" />
+      <workItem from="1548779498447" duration="4713000" />
+      <workItem from="1548890362033" duration="1264000" />
+      <workItem from="1548959037960" duration="616000" />
+      <workItem from="1549219230613" duration="36000" />
+      <workItem from="1549219307210" duration="17650000" />
+      <workItem from="1549293118085" duration="352000" />
+      <workItem from="1549293529818" duration="1388000" />
+      <workItem from="1549659727301" duration="7440000" />
+      <workItem from="1549668285489" duration="4020000" />
+      <workItem from="1549782706980" duration="17525000" />
+      <workItem from="1549815317625" duration="689000" />
+      <workItem from="1550495671098" duration="123000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="112441000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17913593" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.30985916" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.30877572" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.3298731" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Terminal" order="9" weight="0.3298731" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+    <layout-to-restore>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17913593" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.30985916" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.3997833" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.3298731" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Terminal" order="9" weight="0.3298731" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout-to-restore>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/JS Operations and syntaxis - lab.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="49" selection-start-line="49" selection-end-line="49" />
+          <folding>
+            <element signature="n#!!block;n#stringLength#0" />
+            <element signature="n#!!block;n#mathOperations#0" />
+            <element signature="n#!!block;n#SumOfNumbers#0" />
+            <element signature="n#!!block;n#largestNumber#0" />
+            <element signature="n#!!block;n#circleArea#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JS Operations and syntax - exercise.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="133" selection-start-line="133" selection-end-line="133" />
+          <folding>
+            <element signature="n#!!block;n#ILIkeJavaScript#0" />
+            <element signature="n#!!block;n#EvenNumbers1ToN#0" />
+            <element signature="n#!!block;n#Fruit#0" />
+            <element signature="n#!!block;n#FitnessRates#0" />
+            <element signature="n#!!block;n#GreatestCommonDivisor#0" />
+            <element signature="n#!!block;n#SameNumbers#0" />
+            <element signature="n#!!block;n#TimeToWalk#0" />
+            <element signature="n#!!block;n#FlightTimeTable#0" />
+            <element signature="n#!!block;n#CalorieObject#0" />
+            <element signature="n#!!block;n#CoffeeMachine#0" />
+            <element signature="n#!!block;n#DailyCaloriesIntake#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Document-Object-Model - exercise/03_Encode-and-Decode-Messages/template.html" />
+    <entry file="file://$PROJECT_DIR$/Document-Object-Model - exercise/04_Locked-Profile/solution.js" />
+    <entry file="file://$PROJECT_DIR$/Document-Object-Model - exercise/04_Locked-Profile/template.html" />
+    <entry file="file://$PROJECT_DIR$/Document-Object-Model - exercise/05_Number-Convertor/solution.js" />
+    <entry file="file://$PROJECT_DIR$/Document-Object-Model - exercise/02_Chat-Room-with-Pesho/template.html" />
+    <entry file="file://$PROJECT_DIR$/Document-Object-Model - exercise/05_Number-Convertor/template.html" />
+    <entry file="file://$PROJECT_DIR$/Document-Object-Model - exercise/03_Encode-and-Decode-Messages/solution.js" />
+    <entry file="file://$PROJECT_DIR$/Document-Object-Model - exercise/02_Chat-Room-with-Pesho/solution.js" />
+    <entry file="file://$PROJECT_DIR$/Document-Object-Model - exercise/06_SoftUni-Quizz/template.html" />
+    <entry file="file://$PROJECT_DIR$/Document-Object-Model - exercise/07_Table-Search-Engine/template.css" />
+    <entry file="file://$PROJECT_DIR$/Document-Object-Model - exercise/07_Table-Search-Engine/template.html" />
+    <entry file="file://$PROJECT_DIR$/Document-Object-Model - exercise/06_SoftUni-Quizz/solution.js" />
+    <entry file="file://$PROJECT_DIR$/Document-Object-Model - exercise/07_Table-Search-Engine/solution.js" />
+    <entry file="file://$PROJECT_DIR$/Document-Object-Model - exercise/08_Toto-Numbers/template.css" />
+    <entry file="file://$PROJECT_DIR$/Document-Object-Model - exercise/08_Toto-Numbers/solution.js" />
+    <entry file="file://$PROJECT_DIR$/Document-Object-Model - exercise/08_Toto-Numbers/template.html" />
+    <entry file="file://$PROJECT_DIR$/Document-Object-Model - exercise/09_Virus-Installer/solution.js" />
+    <entry file="file://$PROJECT_DIR$/Document-Object-Model - exercise/09_Virus-Installer/template.html" />
+    <entry file="file://$PROJECT_DIR$/JS Fundamentals - Strings and RegEx - exercise/01_Binary-Decoding/solution.js" />
+    <entry file="file://$PROJECT_DIR$/Arrays and Matrices - exercise/Objects and JSON - lab.js" />
+    <entry file="file://$PROJECT_DIR$/Arrays and Matrices - exercise/Arrays and matrices - exercise.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="77" column="1" selection-start-line="77" selection-start-column="1" selection-end-line="77" selection-end-column="1" />
+          <folding>
+            <element signature="n#!!block;n#printArrayWithGiveDelimeter#0" />
+            <element signature="n#!!block;n#printEveryNElementOfAnArray#0" />
+            <element signature="n#!!block;n#AddAndRemoveElements#0" />
+            <element signature="n#!!block;n#RotateArray#0" />
+            <element signature="n#!!block;n#ExtractSubsequenceFromArray#0" />
+            <element signature="n#!!block;n#MagicMatrices#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Objects and JSON - lab/Objects and JSON - lab.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="263">
+          <caret line="110" lean-forward="true" selection-start-line="110" selection-end-line="110" />
+          <folding>
+            <element signature="n#!!block;n#TownsToJson#0" />
+            <element signature="n#!!block;n#SumByTown#0" />
+            <element signature="n#!!block;n#CountWordsByText#0" />
+            <element signature="n#!!block;n#CountWordsWithMaps#0" />
+            <element signature="n#!!block;n#PopulationInTowns#0" />
+            <element signature="n#!!block;n#LowestPricesInCities#0" />
+            <element signature="n#!!block;n#ExtractUniqueWords#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JS Exam 14 October 2018/01. Coffee Machine.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JS Exam 14 October 2018/02. ATM Machine.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="23" column="60" selection-start-line="23" selection-start-column="60" selection-end-line="23" selection-end-column="60" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JS Exam 14 October 2018/04. Warehouse Machine.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="164">
+          <caret line="16" column="40" selection-start-line="16" selection-start-column="40" selection-end-line="16" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JS Exam 10 February 2019/01. HTML Grade.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="5" lean-forward="true" selection-start-line="4" selection-start-column="5" selection-end-line="4" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JS Exam 10 February 2019/02. Table Filter.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="21" column="34" selection-start-line="21" selection-start-column="34" selection-end-line="21" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JS Exam 10 February 2019/04. E-Venetka.bg.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1105">
+          <caret line="65" column="18" selection-start-line="65" selection-start-column="18" selection-end-line="65" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JS Exam 10 February 2019/03. HTML Strict Mode.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="27" column="17" lean-forward="true" selection-start-line="27" selection-start-column="17" selection-end-line="27" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

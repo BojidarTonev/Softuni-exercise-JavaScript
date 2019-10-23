@@ -1,7 +1,6 @@
 const jwt = require('../utils/jwt');
-const User = require("../models/User");
 const appConfig = require('../config/app-config');
-const blacklist = require('../models/tokenBlackList');
+const models = require('../models')
 
 function getLogin(req, res) {
   req.app.locals.title = 'Login';
@@ -10,13 +9,14 @@ function getLogin(req, res) {
 
 function postLogin(req, res) {
   const { username, password } = req.body;
-  User.findOne({ username })
+  models.userModel.findOne({ username })
     .then(user => Promise.all([user, user.matchPassword(password)]))
     .then(([user, match]) => {
        if(!match){
          res.render('users/login', { message: 'Wrong password or username! password wrong actually'});
          return;
        }
+       
        res.app.locals.loggedIn = true;
        const token = jwt.createToken({ id:user._id });
        res.cookie(appConfig.authCookieName, token).redirect('/');
@@ -33,15 +33,14 @@ function getRegister(req, res) {
 
 function postRegister(req, res, next) {
   const { username, password, repeatPassword } = req.body;
-
   if(password != repeatPassword) {
     res.render('users/register', { message: 'Password and repeat password doesnt match!'})
 
     return;
   }
 
-  return User.create({ username, password }).then(() => {
-    res.redirect('login');
+  return models.userModel.create({ username, password }).then(() => {
+    res.redirect('/users/login');
   }).catch(err => {
     if(err.name == 'MongoError' && err.code == 11000) {
       res.render('users/register', { message: 'Username already taken!' });
@@ -56,7 +55,7 @@ function postRegister(req, res, next) {
 
 function getLogout(req, res) {
   let token = req.cookies[appConfig.authCookieName];
-  blacklist.create({ token }).then(() => {
+  models.tokenBlackListModel.create({ token }).then(() => {
     res.clearCookie(appConfig.authCookieName).redirect('/')
   })
   

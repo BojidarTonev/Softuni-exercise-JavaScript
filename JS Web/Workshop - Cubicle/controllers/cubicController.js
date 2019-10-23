@@ -10,23 +10,28 @@ function postCreate(req, res) {
   const { name = null, description = null, imageUrl = null, difficultyLevel = null} = req.body
   const { user } = req;
 
-  Cubic.create({ name, description, imageUrl, difficultyLevel, creatorId: user._id }).then(cubic => {
-    res.redirect('/');
-  })
+  try{
+    Cubic.create({ name, description, imageUrl, difficultyLevel, creatorId: user._id }).then(cubic => {
+      res.redirect('/');
+    })
+  } catch(err){
+    res.redirect('/', { message: err })
+  }
+  
 
 };
 
-function getDetails(req, res, next) {
+async function getDetails(req, res, next) {
   req.app.locals.title = "Cube Details";
 
   let cubeId = req.params.id;
   let user = req.user;
 
-  Cubic.findById(cubeId).then(cube => {
-    const isCreator = JSON.stringify(cube.creatorId) == JSON.stringify(user._id);
-
-    res.render('cubes/details', {cube, isCreator});
-  })
+  const cube = await Cubic.findById(cubeId);
+  if(!cube){ res.redirect('/404.hbs'); return; }
+  const isCreator = JSON.stringify(cube.creatorId) == JSON.stringify(user._id);
+  res.render('cubes/details', {cube, isCreator})
+  
 };
 
 function getEdit(req, res) {
@@ -65,7 +70,7 @@ function getDelete(req, res) {
 function postDelete(req, res) {
   let cubeId = req.params.id;
 
-  Cubic.deleteOne({ id: cubeId }).then(() => {
+  Cubic.deleteOne({ _id: cubeId }).then(() => {
     res.redirect('/');
   })
 };

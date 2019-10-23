@@ -1,11 +1,6 @@
 const mongoose = require('mongoose');
 
 const accessorySchema = new mongoose.Schema({
-    id: {
-        type: mongoose.Schema.Types.ObjectId,
-        auto: true,
-        unique: true
-    },
     name:{  
         type: String,
         required: [true, 'Cant be nameless, sry']
@@ -31,6 +26,4 @@ const accessorySchema = new mongoose.Schema({
     }
 });
 
-const Accessory = mongoose.model('Accessory', accessorySchema, 'accessories');
-
-module.exports = Accessory;
+module.exports = mongoose.model('Accessory', accessorySchema, 'accessories');
